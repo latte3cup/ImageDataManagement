@@ -11,7 +11,7 @@ public class ImageRenamer {
 			if (!folder.exists())
 				folder.mkdir();
 
-			File tempFile = new File(basicAfterPath + "Temp"); // 임시파일 생성
+			File tempFile = new File(basicAfterPath + "Temp");
 			tempFile.createNewFile();
 
 			File fileDirectory = new File(
